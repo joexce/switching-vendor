@@ -1,0 +1,14 @@
+{
+    "vendor-A": {
+        "service": "vendor-A",
+        "status": "sent"
+    },
+    "vendor-B": {
+        "service": "vendor-B",
+        "status": "sent"
+    },
+    "vendor-C": {
+        "service": "vendor-C",
+        "status": "sent"
+    }
+}
