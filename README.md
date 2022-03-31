@@ -7,7 +7,7 @@ Mac or Windows: https://nodejs.org/en/download/
 
 # Node
 ```
-cd SWITCHING-VENDOR
+cd switching-vendor
 npm install
 node index.js 
 ```
