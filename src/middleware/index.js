@@ -1,6 +1,6 @@
-let jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
 
-let tokenValidation = (req, res, next) => {
+function tokenValidation(req, res, next){
   let token = req.headers['x-access-token'] || req.headers['authorization'] || '';
   if (token) {
     if (token.startsWith('Bearer ')) {

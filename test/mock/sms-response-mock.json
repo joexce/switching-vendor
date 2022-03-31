@@ -1,0 +1,23 @@
+{
+    "vendorA": {
+        "reciever": "62",
+        "response": {
+            "service": "vendor-A",
+            "status": "sent"
+        }
+    },
+    "vendorB": {
+        "reciever": "62",
+        "response": {
+            "service": "vendor-B",
+            "status": "sent"
+        }
+    },
+    "vendorC": {
+        "reciever": "62",
+        "response": {
+            "service": "vendor-C",
+            "status": "sent"
+        }
+    }
+}

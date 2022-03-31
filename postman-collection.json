@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "5c4ee596-9488-4b2e-ba49-64d240a6697d",
+		"name": "vendor-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/send-sms-notification?phone=+62379832749834",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoidXNlcm1vY2siLCJwYXNzd29yZCI6InBhc3N3b3JkbW9jayJ9LCJpYXQiOjE2NDg2NTA0MDcsImV4cCI6MTY0ODczNjgwN30.USW7JDyPngWzAKFIlg8ZcaWyXe5yGnQNApdgFbefRMc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/send-sms-notification?phone=+62379832749834",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-sms-notification"
+					],
+					"query": [
+						{
+							"key": "phone",
+							"value": "+62379832749834"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
