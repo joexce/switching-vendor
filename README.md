@@ -9,6 +9,7 @@ Mac or Windows: https://nodejs.org/en/download/
 ```
 cd switching-vendor
 npm install
+cp .env.example .env
 npm start
 ```
 <br>
